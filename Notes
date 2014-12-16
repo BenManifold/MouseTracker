@@ -1,0 +1,5 @@
+Either commenting out line 105 or recompiling with
+cvblob 0.10.4 and opencv 2.2.4 results in program
+running to completion without any segmentation faults.
+temp2 was only being used in commented out code, and is identical to temp. 
+I think they are both pointing to the same address in memory as far as the compiler is concerned.  . 
